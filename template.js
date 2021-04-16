@@ -2,7 +2,7 @@
 class ClassName extends HTMLElement{
 
     static get observedAttributes(){
-        return ['title', 'subtitle', 'header-position', 'header-above', 'size', 'width', 'height', 'drag', 'loop', 'progression']
+        return ['attr']
     }
 
     static get ATTR(){return new Set(['true', 'false', ''])}
