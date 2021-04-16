@@ -14,6 +14,7 @@ class ClassName extends HTMLElement{
         super()
 
         //#region Root
+         this.root = this.attachShadow({mode: 'open'})
         
         //#endregion
 
